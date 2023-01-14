@@ -29,4 +29,4 @@ tags:
 3. Adicionar as natas e a farinha aos poucos e, alternadamente, mexendo de baixo para cima e por fim misture-lhe as claras em castelo.
 4. Deita-se na forma e leve a cozer em forno medio por 50 mins.
 
-<br>
+
