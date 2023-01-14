@@ -1,0 +1,30 @@
+site_name: Cooking & Baking Recipes | Receitas de Culinária
+site_url: https://recipes.sousaca.com
+theme:
+  name: material
+  language: en
+  icon:
+    tag:
+      doces: material/cake
+      bolos: simple/cakephp
+    logo: material/food
+  palette:
+    accent: light green
+    primary: black
+  features:
+    - navigation.prune
+    - toc.integrate
+plugins:
+  - search
+  - exclude-search:
+      exclude:
+        - templates/template_v1.md
+  - tags:
+      tags_file: index.md
+extra_css:
+  - stylesheets/extra.css
+extra:
+  tags:
+    doces: doces
+    bolos: bolos
+  generator: false
