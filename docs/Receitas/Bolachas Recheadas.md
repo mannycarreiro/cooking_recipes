@@ -11,8 +11,6 @@ tags:
 
 # Bolachas Recheadas
 
-<hr>
-
 <br>
 
 
