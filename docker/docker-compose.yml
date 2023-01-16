@@ -1,6 +1,7 @@
 version: '3.3'
 services:
   mkdocs_cookingrecipes:
+    container_name: "mkdocs_cookingrecipes"
     build:
       context: ../
       dockerfile: Dockerfile

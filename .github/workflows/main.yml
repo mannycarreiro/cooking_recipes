@@ -8,4 +8,10 @@ jobs:
     runs-on: [self-hosted]
     steps:
       - uses: actions/checkout@main
-      - run: touch "$GITHUB_WORKSPACE/testfile.test"
+      - run: "cd $GITHUB_WORKSPACE"
+      - run: source "$GITHUB_WORKSPACE/mkdocs/bin/activate"
+      - run: "mkdocs build"
+      - run: "docker-compose down -f $GITHUB_WORKSPACE/docker/docker-compose.yml"
+      - run: "docker container rm mkdocs_cookingrecipes"
+      - run: "docker image rm docker-mkdocs_cookingrecipes --force"
+      - run: "docker-compose up -f $GITHUB_WORKSPACE/docker/docker-compose.yml"
