@@ -9,16 +9,15 @@ jobs:
     steps:
       - uses: actions/checkout@main
       - name: "Install dependencies"
-        working-directory: "$GITHUB_WORKSPACE/mkdocs/bin"
+        working-directory: "mkdocs/bin"
         run: |
           source ./activate
           python3 -m pip install --upgrade pip
           python3 -m pip install mkdocs mkdocs-exclude-search mkdocs-material-extensions mkdocs-material
       - name: Build site
-        working-directory:
-        run: python3 -m mkdocs build "$GITHUB_WORKSPACE"
+        run: python3 -m mkdocs build
       - name: "Start Container"
-        working-directory: "$GITHUB_WORKSPACE/docker"
+        working-directory: "./docker"
         run: "docker-compose up --detach --force-recreate"
 
 
