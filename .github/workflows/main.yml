@@ -8,6 +8,4 @@ jobs:
     runs-on: [self-hosted]
     steps:
       - uses: actions/checkout@main
-      #- run: pip install mkdocs
-      - run: echo "Hello everyone this is a test"
-      - run: touch "/tmp/testfile.test"
+      - run: touch "$GITHUB_WORKSPACE/testfile.test"
