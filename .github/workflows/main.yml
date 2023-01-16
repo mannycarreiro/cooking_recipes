@@ -8,13 +8,17 @@ jobs:
     runs-on: [self-hosted]
     steps:
       - uses: actions/checkout@main
-      - run: "cd $GITHUB_WORKSPACE"
-      - run: |
-          source $GITHUB_WORKSPACE/mkdocs/bin/activate
+      - name: "Install dependencies"
+        working-directory: "$GITHUB_WORKSPACE/mkdocs/bin"
+        run: |
+          source ./activate
           python3 -m pip install --upgrade pip
-          python3 -m pip install mkdocs mkdocs-exclude-search mkdocs-material-extensions mkdocs-material 
-          python3 -m mkdocs build
-      - run: "cd $GITHUB_WORKSPACE/docker"
-      - run: "docker-compose down || true"
-      - run: "docker-compose up"
+          python3 -m pip install mkdocs mkdocs-exclude-search mkdocs-material-extensions mkdocs-material
+      - name: Build site
+        working-directory:
+        run: python3 -m mkdocs build "$GITHUB_WORKSPACE"
+      - name: "Start Container"
+        working-directory: "$GITHUB_WORKSPACE/docker"
+        run: "docker-compose up --detach --force-recreate"
+
 
