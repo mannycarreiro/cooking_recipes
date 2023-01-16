@@ -10,8 +10,10 @@ jobs:
       - uses: actions/checkout@main
       - run: "cd $GITHUB_WORKSPACE"
       - run: source "$GITHUB_WORKSPACE/mkdocs/bin/activate"
+      - run: "python3 -m pip install mkdocs"
       - run: "mkdocs build"
       - run: "docker-compose down -f $GITHUB_WORKSPACE/docker/docker-compose.yml"
       - run: "docker container rm mkdocs_cookingrecipes"
       - run: "docker image rm docker-mkdocs_cookingrecipes --force"
       - run: "docker-compose up -f $GITHUB_WORKSPACE/docker/docker-compose.yml"
+      - run: "deactivate"
