@@ -14,8 +14,7 @@ jobs:
           python3 -m pip install --upgrade pip
           python3 -m pip install mkdocs mkdocs-exclude-search mkdocs-material-extensions mkdocs-material 
           python3 -m mkdocs build
-      - run: "docker-compose down -f $GITHUB_WORKSPACE/docker/docker-compose.yml"
-      - run: "docker container rm mkdocs_cookingrecipes"
-      - run: "docker image rm docker-mkdocs_cookingrecipes --force"
-      - run: "docker-compose up -f $GITHUB_WORKSPACE/docker/docker-compose.yml"
-      - run: "deactivate"
+      - run: "cd $GITHUB_WORKSPACE/docker"
+      - run: "docker-compose down"
+      - run: "docker-compose up"
+
