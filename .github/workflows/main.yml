@@ -19,8 +19,8 @@ jobs:
       - name: Stop Container
         working-directory: "./docker"
         run: "docker-compose down || true"
+      - name: Delete images
+        run: "docker image prune -a -f"
       - name: "Start Container"
         working-directory: "./docker"
         run: "docker-compose up --detach --force-recreate"
-
-
