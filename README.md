@@ -1,1 +1,1 @@
-[![Actions Status](https://github.com/{user}/{repo}/workflows/{action}/badge.svg)](https://github.com/{user}/{repo}/actions)
+[![Actions Status](https://github.com/mannycarreiro/cooking_recipes/workflows/{action}/badge.svg)](https://github.com/mannycarreiro/cooking_recipes/actions)
