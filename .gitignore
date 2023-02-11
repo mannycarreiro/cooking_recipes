@@ -1,3 +1,5 @@
 .idea/**
-mkdocs/**
+mkdocs/include/**
+mkdocs/lib/**
+mkdocs/share/**
 .DS_Store
