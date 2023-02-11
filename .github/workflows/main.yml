@@ -13,7 +13,7 @@ jobs:
         run: |
           source ./activate
           python3 -m pip install --upgrade pip
-          python3 -m pip install mkdocs mkdocs-exclude-search mkdocs-material-extensions mkdocs-material
+          python3 -m pip install mkdocs mkdocs-exclude-search mkdocs-material-extensions mkdocs-material mkdocs-pdf-export-plugin
       - name: Build site
         run: python3 -m mkdocs build
       - name: Stop Container
