@@ -16,7 +16,6 @@ theme:
     - toc.integrate
 plugins:
   - search
-  - pdf-export
   - exclude-search:
       exclude:
         - templates/template_v1.md
