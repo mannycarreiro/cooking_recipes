@@ -8,7 +8,7 @@ tags:
   - tartes
 ---
 
-# Tarde de Amêndoa
+# Tarte de Amêndoa
 
 <hr>
 
