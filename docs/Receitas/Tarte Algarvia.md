@@ -8,7 +8,7 @@ tags:
   - tartes
 ---
 
-# Tarte de Leite Condensado
+# Tarte Algarvia
 
 <hr>
 
