@@ -10,6 +10,7 @@ tags:
 
 
 # Barras Mágicas (Magic Bars)
+
 > Receita de Leonor Santos [Sabor dos Açores](https://www.youtube.com/watch?v=grJYnsbY2t8) 📽️
 
 <br>
@@ -29,7 +30,7 @@ tags:
 * 200 gr de Nozes
 * 200 gr de Côco ralado
 * 1 lata (370 gr) de leite condensado
-* 200 gr de amêndoas torradas
+* 200 gr de amêndoas torradas (opcional)
 
 
 <br>
@@ -37,7 +38,7 @@ tags:
 ## **Preparação**
 
 * Forrar com papel vegetal uma forma de 24 x 36 cm
-* Esmagar os cereais com as maos ate ficar bem miúdo
+* Esmagar os cereais com as maos ate ficar bem moído.
 * Adicionar o ovo e a manteiga derretida e misturar ate ficar numa consitência de massa de tarte
 * Por a base no tabuleiro e estender até ficar consistente de altura, calcando com as mãos
 * Adicionar/espalhar metade das pepitas de chocolate, metade as amêndoas, metade nozes e o côco ralado
