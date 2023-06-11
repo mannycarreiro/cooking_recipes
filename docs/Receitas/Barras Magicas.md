@@ -11,8 +11,6 @@ tags:
 
 # Barras Mágicas (Magic Bars)
 
-> Receita de Leonor Santos [Sabor dos Açores](https://www.youtube.com/watch?v=grJYnsbY2t8) 📽️
-
 <br>
 
 
