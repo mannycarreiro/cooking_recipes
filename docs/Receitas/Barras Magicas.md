@@ -30,7 +30,6 @@ tags:
 * 200 gr de Côco ralado
 * 1 lata (370 gr) de leite condensado
 * 200 gr de amêndoas torradas
-* 
 
 
 <br>
