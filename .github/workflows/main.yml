@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@main
       - name: Stop Container
-        run: "docker-compose down"
+        run: "docker-compose down || exit 0"
       - name: "Start Container"
         run: "docker-compose up --detach --force-recreate"
