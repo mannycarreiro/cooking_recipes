@@ -10,5 +10,7 @@ jobs:
       - uses: actions/checkout@main
       - name: Stop Container
         run: "docker-compose down || exit 0"
+      - name: Remove old image
+        run: "docker image prune -a"
       - name: "Start Container"
         run: "docker-compose up --detach --force-recreate"
