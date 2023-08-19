@@ -57,9 +57,3 @@ tags:
 
 * Numa frigideira, no lume muito baixo, cozer os bolos levedos até ficarem cozidos
 
-
-
-### Bolo
-
-
-
