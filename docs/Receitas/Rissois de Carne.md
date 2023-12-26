@@ -18,7 +18,6 @@ tags:
 
 ### Recheio
 
-Ingredientes
 * 1 Peito de Frango
 * 1 Chouriço
 * ½ colher de sopa de chá de massa de pimentão
@@ -30,8 +29,10 @@ Ingredientes
 <br>
 
 ### Molho Bechamel
-•	1 chávena de leite
-•	2 colheres de sopa de farinha Maizena.	
+
+* 1 chávena de leite
+* 2 colheres de sopa de farinha Maizena.	
+
 
 Combinar os dois ingredientes em lume medio, ate engrossar.
 
