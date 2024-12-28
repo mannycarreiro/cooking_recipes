@@ -10,7 +10,7 @@ tags:
 ---
 
 
-# Pudim de Peixe
+# Ovos Recheados
 
 <br>
 
@@ -26,7 +26,7 @@ tags:
 
 
 ## **Preparação (Recheio de Atum** 🍣)
-1. Num recipiente esmaga-se as hemas com um garfo e mistura-se a salsa e a cebola picada
+1. Num recipiente esmaga-se as gemas com um garfo e mistura-se a salsa e a cebola picada
 2. Adiciona-se a pimenta da terra, o atum bem desfeito. a maionese e o ketchup
 3. Amassa-se tudo de modo que fique como uma pasta.
 4. Enrolar em Farinha e fritar
