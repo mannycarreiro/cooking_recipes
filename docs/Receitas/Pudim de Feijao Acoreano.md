@@ -12,7 +12,7 @@ tags:
 
 <hr>
 
-![Pudim de Feijao Acoreano](./images/Pudim_Feijao_Acoreano.png)
+<img src="./images/Pudim_Feijao_Acoreano.png" width=40% height=40%>
 
 <br>
 
