@@ -13,6 +13,8 @@ tags:
 
 <br>
 
+<img src="https://i.imgur.com/hpkTT2g.jpeg" alt="Corn Chowder Soup" width="40%"/>
+
 
 ## **Ingredients**
 
